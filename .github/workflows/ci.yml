@@ -37,3 +37,6 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/calculator-app:v1
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/calculator-app:v1
